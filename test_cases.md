@@ -17,7 +17,7 @@ Verify that the raw CSV file is fully ingested into the MySQL staging table.
 3. Execute:
    ```sql
    SELECT COUNT(*) FROM flight_prices_raw;
-````
+   ````
 
 **Expected Outcome:**
 
