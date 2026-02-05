@@ -45,15 +45,14 @@ airflow-flight-price-analysis/
 │
 ├── sql/
 │   ├── mysql_setup.sql
+    ├── postgres_analytics.sql
 │   └── postgres_setup.sql
 │
 ├── docker-compose.yaml
 ├── project_report.md
 ├── system_architecture.md
 ├── test_cases.md
-├── oral_defense_notes.md
-├── README.md
-└── .gitignore
+└── README.md
 
 ```
 
