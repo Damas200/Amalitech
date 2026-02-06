@@ -1,5 +1,5 @@
 
-# System Architecture – Airflow Flight Price Analysis
+# System Architecture 
 
 ## 1. Overview
 
