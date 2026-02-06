@@ -17,8 +17,8 @@ The system follows a layered approach separating ingestion, staging, transformat
 |              CSV Data Source                     |
 |  Flight_Price_Dataset_of_Bangladesh.csv          |
 +---------------------------+----------------------+
-|
-v
+                            |
+                            v
 +--------------------------------------------------+
 |              Apache Airflow (DAGs)               |
 |                                                  |
@@ -34,9 +34,9 @@ v
 |  - Load to PostgreSQL                           |
 +---------------------------+----------------------+
 |
-+-------------------+-------------------+
-|                                       |
-v                                       v
++-------------------+---------------------------------------+---------------+
+                    |                                       |
+                    v                                       v
 +---------------------------+      +-----------------------------+
 |      MySQL (Staging)      |      |   PostgreSQL (Analytics)    |
 |                           |      |                             |
@@ -166,3 +166,4 @@ This ensures:
 The system architecture successfully supports a complete data engineering workflow, from raw data ingestion to analytical insights. The modular and layered design ensures data quality, reliability, and ease of maintenance, making the solution suitable for both academic and real-world analytics applications.
 
 ---
+
